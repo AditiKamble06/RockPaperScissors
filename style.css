@@ -1,0 +1,78 @@
+
+h1{
+  color: rgb(235, 225, 225);
+  text-align: center;
+  text-decoration: wavy;
+  font-style: italic;
+}
+h1:hover{
+  cursor: pointer;
+}
+.choices{
+  display: flex;
+  justify-content: center;
+
+}
+header{
+  background-color: rgb(7, 7, 91);
+}
+img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 20px;
+}
+.choice:hover{
+ opacity: 50%;
+  cursor: pointer;
+}
+footer{
+  background-color: rgb(7, 7, 91);
+}
+h2{
+  color: rgb(235, 225, 225);
+  text-align: center;
+  text-decoration: wavy;
+  font-style: italic;
+}
+.scoreboard{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #D7D7FA;
+  gap: 5rem;
+}
+.user{
+  padding: 50px;
+  padding-bottom: 50px;
+  font-size: 2rem;
+}
+.comp{
+  padding: 50px;
+  padding-bottom: 50px;
+  font-size: 2rem;
+}
+body{
+  background-color: #464490;
+}
+.msg{
+  color: #D7D7FA;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #988CED;
+  display:inline-flex;
+  margin: auto;
+  align-items: center;
+  border-radius: 10px;
+  padding: 1rem;
+  justify-content: center;
+}
+.choice{
+  border-radius: 50%;
+}
+.userMessage{
+  margin-top: 2rem;
+  text-align: center;
+ 
+}
